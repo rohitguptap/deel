@@ -1,0 +1,278 @@
+{
+	"id": "78836c71-4b42-2472-fdc5-99881dd91750",
+	"name": "deel",
+	"description": "",
+	"order": [
+		"d4200fae-4174-6d26-2d4a-6a79bf0ab9c0",
+		"3f037bf5-256f-c28e-62ce-73e8cdf29db2",
+		"24379fbe-204a-ed09-1f7f-7b0ccbeadd22",
+		"00f24665-1946-1bfb-57d0-52ecacd0ad3e",
+		"80e1f5ad-8f5a-f6c7-c300-ff6988c50d81",
+		"00cc264b-b485-b8b2-38d6-c2e2e7601ff8",
+		"e12a6626-44e6-f409-cf45-767eecd44f57"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1672164151355,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00cc264b-b485-b8b2-38d6-c2e2e7601ff8",
+			"headers": "profile_id: 1\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/admin/best-clients?start=2019-12-27&end=2022-12-27&limit=3",
+			"queryParams": [
+				{
+					"key": "start",
+					"value": "2019-12-27",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "end",
+					"value": "2022-12-27",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672170218858,
+			"name": "Get best clients",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": []
+		},
+		{
+			"id": "00f24665-1946-1bfb-57d0-52ecacd0ad3e",
+			"headers": "profile_id: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/balances/deposit/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672293264458,
+			"name": "Balance Deposit_money",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": [],
+			"rawModeData": "{\n\t\"amount\":10\n}"
+		},
+		{
+			"id": "24379fbe-204a-ed09-1f7f-7b0ccbeadd22",
+			"headers": "profile_id: 1\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/jobs/unpaid",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672168142923,
+			"name": "Get unpaid jobs",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": []
+		},
+		{
+			"id": "3f037bf5-256f-c28e-62ce-73e8cdf29db2",
+			"headers": "profile_id: 1\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/contracts/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get contracts",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1672164190945,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "d4200fae-4174-6d26-2d4a-6a79bf0ab9c0"
+		},
+		{
+			"id": "80e1f5ad-8f5a-f6c7-c300-ff6988c50d81",
+			"headers": "profile_id: 1\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/admin/best-profession?start=2019-12-27&end=2022-12-27",
+			"queryParams": [
+				{
+					"key": "start",
+					"value": "2019-12-27",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "end",
+					"value": "2022-12-27",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672170036979,
+			"name": "Get best profession",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": []
+		},
+		{
+			"id": "d4200fae-4174-6d26-2d4a-6a79bf0ab9c0",
+			"headers": "profile_id: 1\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/contracts/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672293219295,
+			"name": "Get contract by id for a profile",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": []
+		},
+		{
+			"id": "e12a6626-44e6-f409-cf45-767eecd44f57",
+			"headers": "profile_id: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "profile_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3001/jobs/2/pay",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672168611624,
+			"name": "Pay for a job",
+			"description": "",
+			"collectionId": "78836c71-4b42-2472-fdc5-99881dd91750",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}

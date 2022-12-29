@@ -6,3 +6,4 @@
 - Create api documentation using Swagger
 - Implement Authentication
 - Dockerize the app
+- Query optimization
